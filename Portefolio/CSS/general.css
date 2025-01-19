@@ -1,0 +1,78 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header > a {
+    text-decoration: none;
+    color: black;
+}
+
+header > a:hover{
+    background-color: #CECECE;
+    border-radius: 1vh;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 75%;
+    align-items: center;
+    text-align: center;
+}
+#box-presentation{
+    width: 60%;
+
+}
+#text_presentation{
+    display: flex;
+}
+
+#cv-button{
+    width: 20vh;
+    height: 5vh;
+    border-radius: 2vh;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+aside{
+    display: flex;
+    text-align: center;
+    width: 25%;
+    margin: 0.5vh;
+}
+
+#box-aside{
+    background-color: #CECECE;
+    width: 60%;
+    border-radius: 2vh;
+    box-shadow:  2px 5px 5px 0px;
+}
+
+
+

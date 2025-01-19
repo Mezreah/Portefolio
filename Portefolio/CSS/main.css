@@ -1,0 +1,9 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#picture_myself{
+    width: 40vh;
+    height: 50vh;
+    border-radius: 2vh;
+}
